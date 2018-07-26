@@ -1,0 +1,1293 @@
+[
+  {
+    "searchKey": "gorged",
+    "Name": "Gorged",
+    "Persistent": "Persistent",
+    "Description": "Your Satiety is comfortably sated. You inflict Nightmares easily, but are not resistant to supernatural compulsion.",
+    "Source": "BTP 320",
+    "Resolution": "Reduce Satiety to 6 or increase to 10",
+    "Beat": "Choose to fail a roll because you're lazy. Only when you're trying to be proactive and there are consequences.",
+    "Effect": " +2 to open primordial Pathways"
+  },
+  {
+    "searchKey": "ravenous",
+    "Name": "Ravenous",
+    "Persistent": "Persistent",
+    "Description": "Your hunger consumes you, both mentally and physically, until you find sustenance.",
+    "Source": "BTP 320",
+    "Resolution": "Regain a point of Satiety",
+    "Beat": "When you would normally fill your hunger at stiety 1-3 take a beat instead",
+    "Effect": "Can't spend willpower except for Satiety. No regaining willpower except by taking actients to replenish Seity (potential 1 to 6). Every day you don't replenish Satiety, take a point of lethal. Cannot heal lethal or agg while Ravenous"
+  },
+  {
+    "searchKey": "sated",
+    "Name": "Sated",
+    "Persistent": "Persistent",
+    "Description": "Your Satiety sits in an uncomfortable middle, and you are vulnerable to Anathema.",
+    "Source": "BTP 320",
+    "Resolution": "Reduce Satiety to three or increase to 7",
+    "Beat": "When you pursue Satiety at risk of harm, when you spend satiety needlessly. If you place an Anathema on a character.",
+    "Effect": "No bonuses"
+  },
+  {
+    "searchKey": "abruption",
+    "Name": "Abruption",
+    "Description": "Your supernatural prowess is severely hobbled by a dominant outside force.",
+    "Source": "BTP 321",
+    "Resolution": "Near death experience. Collapse into a chamber rousing a horror.",
+    "Beat": "Experience a meaningful failure due to humanity; being rejected by your supernatural kin",
+    "Effect": "Lose access to your atavisms, nightmares, beast merits, birthrights."
+  },
+  {
+    "searchKey": "slumbering",
+    "Name": "Slumbering",
+    "Persistent": "Persistent",
+    "Description": "You've feasted too much, and your Horror sleeps to digest, denying you its power.",
+    "Source": "BTP 321",
+    "Resolution": "Take Beaten Down or appropriate Condition",
+    "Beat": "n/a",
+    "Effect": "Lose a number of sucesses on a Power equal to inflicting Beasts Lair +1, if power isn't rolled it just fails."
+  },
+  {
+    "searchKey": "starving",
+    "Name": "Starving",
+    "Persistent": "Persistent",
+    "Description": "Your Satiety is low, making you sharp and ready to feed. Your Atavisms wax in power, but your Lair is hazy and distant.",
+    "Source": "BTP 321",
+    "Resolution": "Increase Satiety to 4",
+    "Beat": "Take irrational risks in pursuit of Satiety. ",
+    "Effect": "-2 to open Primordial Pathways. Add Lair rating to Power while in Lair"
+  },
+  {
+    "searchKey": "cursed",
+    "Name": "Cursed",
+    "Description": "A supernatural curse dooms your efforts in a given field.",
+    "Source": "BTP 322",
+    "Resolution": "If real, remove curse. If false, get therapy",
+    "Effect": "Any failure in cursed area is a dramatic. Spend 1WP to negate for one action"
+  },
+  {
+    "searchKey": "family ties",
+    "Name": "Family Ties",
+    "Persistent": "Persistent",
+    "Description": "You've united your power in concert with a Primordial Beast.",
+    "Source": "BTP 322",
+    "Resolution": "Break family ties",
+    "Beat": "You encounter troulbe with others of your kind due to your connection with Beast",
+    "Effect": "Use Beast's Resistance for supernatural powers. Gain +1 to teamwork rolls to help beast"
+  },
+  {
+    "searchKey": "fragile",
+    "Name": "Fragile",
+    "Description": "You're using equipment not sturdy enough to endure continued use.",
+    "Source": "CofD 102",
+    "Resolution": "The equipment breaks, everyone involved gains a beat"
+  },
+  {
+    "searchKey": "volatile",
+    "Name": "Volatile",
+    "Description": "You're using unstable equipment prone to backfiring.",
+    "Source": "CofD 102",
+    "Resolution": "Suffer a dramatic failure using the equipment. One beat to everyone involved."
+  },
+  {
+    "searchKey": "addicted",
+    "Name": "Addicted",
+    "Persistent": "Persistent",
+    "Description": "You have an addiction, which is to be specififed. Failure to partake results in Deprived Condition",
+    "Source": "GMC 181",
+    "Resolution": "Regain a dot of integrity, lose a dot of integrity, achieve an exceptional sucess on a breaking point",
+    "Beat": "You get a fix instead of doing what you're suppose to"
+  },
+  {
+    "searchKey": "amnesia",
+    "Name": "Amnesia",
+    "Persistent": "Persistent",
+    "Description": "You've lost a large swath of memory.",
+    "Source": "CofD 288",
+    "Resolution": "You regain your memory",
+    "Beat": "Something problematic arrives, such as a forgotten warrant or old enemy"
+  },
+  {
+    "searchKey": "blind",
+    "Name": "Blind",
+    "Persistent": "Optionally Persistent",
+    "Description": "You've lost or can't exercise your sense of sight.",
+    "Source": "CofD 288",
+    "Resolution": "You regain your sight",
+    "Beat": "Limitation or difficulty that heightens immediate danger",
+    "Effect": "Sight rolls made with a chance die (or at -3 if appropriate alternative can be used)"
+  },
+  {
+    "searchKey": "bonded",
+    "Name": "Bonded",
+    "Description": "You've established trust with a particular animal.",
+    "Source": "CofD 288",
+    "Resolution": "The bonded animal dies",
+    "Effect": "2 to influence the animal. Animal may add your Animal Ken to resist coercion of fear when you're near by. And to any one die roll."
+  },
+  {
+    "searchKey": "broken",
+    "Name": "Broken",
+    "Persistent": "Persistent",
+    "Description": "Your will is broken and you back down from everything.",
+    "Source": "CofD 288",
+    "Resolution": "Regain a dot of integrity, lose a dot of integrity, achieve an exceptional sucess on a breaking point",
+    "Beat": "Back down from a confrontation or fail a roll due to this condition",
+    "Effect": "Appply -2 to all social rolls involving Resolve and -5 to all Intimidation rolls"
+  },
+  {
+    "searchKey": "connected",
+    "Name": "Connected",
+    "Persistent": "Optionally Persistent",
+    "Description": "You've made inroads with a particular group of people.",
+    "Source": "GMC 181",
+    "Resolution": "Lose your membership with group",
+    "Beat": "Do a favour for the group that inconveniences you",
+    "Effect": " +2 to rolls effecting that group. Shed condition for automatic exceptional success on the next roll"
+  },
+  {
+    "searchKey": "crippled (or disabled)",
+    "Name": "Crippled (or Disabled)",
+    "Persistent": "Optionally Persistent",
+    "Description": "You can't effectively walk on your own power.",
+    "Source": "CofD 288",
+    "Resolution": "You are cured",
+    "Beat": "Your disability inconveniences you"
+  },
+  {
+    "searchKey": "deprived",
+    "Name": "Deprived",
+    "Persistent": "Optionally Persistent",
+    "Description": "You're weakened by an unfed addiction.",
+    "Source": "CofD 288"
+  },
+  {
+    "searchKey": "embarrassing secret",
+    "Name": "Embarrassing Secret",
+    "Description": "There are skeletons in your closet to exploit.",
+    "Source": "CofD 289"
+  },
+  {
+    "searchKey": "fugue",
+    "Name": "Fugue",
+    "Persistent": "Persistent",
+    "Description": "You've shied away from trauma by shutting out the experience.",
+    "Source": "CofD 289"
+  },
+  {
+    "searchKey": "guilty",
+    "Name": "Guilty",
+    "Description": "Feelings of remorse leave you emotionally vulnerable.",
+    "Source": "CofD 289"
+  },
+  {
+    "searchKey": "informed",
+    "Name": "Informed",
+    "Description": "You're well equipped to tackle a given subject.",
+    "Source": "CofD 289"
+  },
+  {
+    "searchKey": "inspired",
+    "Name": "Inspired",
+    "Description": "The spirit moves you to confident action.",
+    "Source": "CofD 289"
+  },
+  {
+    "searchKey": "leveraged",
+    "Name": "Leveraged",
+    "Description": "A particular character is holding something over your head to compel you.",
+    "Source": "CofD 289"
+  },
+  {
+    "searchKey": "lost",
+    "Name": "Lost",
+    "Description": "You've lost your sense of place and need to reorient.",
+    "Source": "CofD 289"
+  },
+  {
+    "searchKey": "madness",
+    "Name": "Madness",
+    "Persistent": "Persistent",
+    "Description": "Unnatural horror has shattered your ability to process life.",
+    "Source": "CofD 289"
+  },
+  {
+    "searchKey": "mute",
+    "Name": "Mute",
+    "Persistent": "Optionally Persistent",
+    "Description": "You cannot speak or use your voice.",
+    "Source": "CofD 290"
+  },
+  {
+    "searchKey": "notoriety",
+    "Name": "Notoriety",
+    "Description": "Odious blame follows you, whether true or not.",
+    "Source": "CofD 290"
+  },
+  {
+    "searchKey": "obsession",
+    "Name": "Obsession",
+    "Persistent": "Optionally Persistent",
+    "Description": "Something controls your attention and distracts from all else.",
+    "Source": "CofD 290"
+  },
+  {
+    "searchKey": "shaken",
+    "Name": "Shaken",
+    "Description": "You're shocked or deeply rattled, unsteadying your hand.",
+    "Source": "CofD 290"
+  },
+  {
+    "searchKey": "soulless",
+    "Name": "Soulless",
+    "Persistent": "Persistent",
+    "Description": "Your soul has been stripped from you, gradually sapping your will.",
+    "Source": "CofD 290"
+  },
+  {
+    "searchKey": "spooked",
+    "Name": "Spooked",
+    "Description": "Otherworldly wonder moves you unwisely.",
+    "Source": "CofD 291"
+  },
+  {
+    "searchKey": "steadfast",
+    "Name": "Steadfast",
+    "Description": "Your resolve to act is steeled and ready.",
+    "Source": "CofD 291"
+  },
+  {
+    "searchKey": "swooned",
+    "Name": "Swooned",
+    "Description": "You're charmed or bedazzled by a particular person.",
+    "Source": "CofD 291"
+  },
+  {
+    "searchKey": "the sibyl's tongue",
+    "Name": "The Sibyl's Tongue",
+    "Persistent": "Persistent",
+    "Description": "Supernatural revelations can only be shared in High Speech, or by spending Willpower, through riddles or allegory.",
+    "Source": "DE 78"
+  },
+  {
+    "searchKey": "monster",
+    "Name": "Monster",
+    "Description": "A Paradox has mutated an animal into a miserable, fearsome nemesis.",
+    "Source": "DE 81"
+  },
+  {
+    "searchKey": "unclean",
+    "Name": "Unclean",
+    "Description": "A Paradox has turned your magical tools and methods against you.",
+    "Source": "DE 81"
+  },
+  {
+    "searchKey": "unintended medium",
+    "Name": "Unintended Medium",
+    "Description": "A lingering ghost or spirit is able to subject you to harrowing visions.",
+    "Source": "DEC 273"
+  },
+  {
+    "searchKey": "sickly",
+    "Name": "Sickly",
+    "Description": "Disease is making its way through your system.",
+    "Source": "DSG 105"
+  },
+  {
+    "searchKey": "faith",
+    "Name": "Faith",
+    "Persistent": "Persistent",
+    "Description": "Your trust in the next world can be exploited by angelic forces.",
+    "Source": "DSG 81"
+  },
+  {
+    "searchKey": "plugged in",
+    "Name": "Plugged In",
+    "Description": "You've jacked an angel's Cover, and the God-Machine is watching you as if you were that angel.",
+    "Source": "DTD 118"
+  },
+  {
+    "searchKey": "betrayed",
+    "Name": "Betrayed",
+    "Persistent": "Persistent",
+    "Description": "Someone you trusted has sided with the God-Machine against you.",
+    "Source": "DTD 119"
+  },
+  {
+    "searchKey": "blown",
+    "Name": "Blown",
+    "Persistent": "Persistent",
+    "Description": "One of your Covers is useless, and the God-Machine is now actively targeting it.",
+    "Source": "DTD 119"
+  },
+  {
+    "searchKey": "hunted",
+    "Name": "Hunted",
+    "Persistent": "Persistent",
+    "Description": "Dangerous enemies have your trail.",
+    "Source": "DTD 119"
+  },
+  {
+    "searchKey": "impostor",
+    "Name": "Impostor",
+    "Description": "You've let the lies of Legend pile up.",
+    "Source": "DTD 119"
+  },
+  {
+    "searchKey": "blackballed",
+    "Name": "Blackballed",
+    "Description": "The heat you've drawn makes you a liability for nearby demons.",
+    "Source": "DTD 120"
+  },
+  {
+    "searchKey": "flagged",
+    "Name": "Flagged",
+    "Description": "The agents of the God-Machine have their attentions directed your way.",
+    "Source": "DTD 120"
+  },
+  {
+    "searchKey": "surveilled",
+    "Name": "Surveilled",
+    "Description": "Agents of the God-Machine are compiling intelligence to identify you.",
+    "Source": "DTD 120"
+  },
+  {
+    "searchKey": "aetheric bleed",
+    "Name": "Aetheric Bleed",
+    "Description": "Exertion in demonic form has you releasing accumulated Aether.",
+    "Source": "DTD 209"
+  },
+  {
+    "searchKey": "demonic disconnect",
+    "Name": "Demonic Disconnect",
+    "Description": "You've failed to maintain human empathy while in your demonic form.",
+    "Source": "DTD 209"
+  },
+  {
+    "searchKey": "demonic rage",
+    "Name": "Demonic Rage",
+    "Description": "Pain and frustration suffered in demonic form provoke frenzied violence.",
+    "Source": "DTD 210"
+  },
+  {
+    "searchKey": "captivated",
+    "Name": "Captivated",
+    "Description": "You're heavily preoccupied with something and can't split your attention.",
+    "Source": "DTD 211"
+  },
+  {
+    "searchKey": "disoriented",
+    "Name": "Disoriented",
+    "Description": "You've lost equilibrium and need an opportunity to recenter.",
+    "Source": "DTD 211"
+  },
+  {
+    "searchKey": "prepared for anything",
+    "Name": "Prepared for Anything",
+    "Description": "The Inquisitor Agenda. Resolve to make an instant logical connection or breakthrough.",
+    "Source": "DTD 93"
+  },
+  {
+    "searchKey": "angel empathy",
+    "Name": "Angel Empathy",
+    "Description": "The Integrator Agenda. Resolve to understand and exploit the angelic mindset.",
+    "Source": "DTD 95"
+  },
+  {
+    "searchKey": "an eye for disorder",
+    "Name": "An Eye for Disorder",
+    "Description": "The Saboteur Agenda. Resolve to intuit the best course of action to upend a system into chaos.",
+    "Source": "DTD 97"
+  },
+  {
+    "searchKey": "i know someone",
+    "Name": "I Know Someone",
+    "Description": "The Tempter Agenda. Resolve to make the right connections to fit in anywhere.",
+    "Source": "DTD 99"
+  },
+  {
+    "searchKey": "implanted",
+    "Name": "Implanted",
+    "Persistent": "Persistent",
+    "Description": "You have a weird gadget implanted in your body and this is not normal.",
+    "Source": "FoH 155"
+  },
+  {
+    "searchKey": "phantom pain",
+    "Name": "Phantom Pain",
+    "Persistent": "Persistent",
+    "Description": "Your focus is disrupted by the gnawing feeling of a missing demonic form ability.",
+    "Source": "FoH 160"
+  },
+  {
+    "searchKey": "of the machine",
+    "Name": "Of the Machine",
+    "Description": "The demon has god-hacked to disguise her fallen nature within a project.",
+    "Source": "FoH 78"
+  },
+  {
+    "searchKey": "memory hole",
+    "Name": "Memory Hole",
+    "Description": "Errors in god-hacking have disrupted your access to a particular Skill.",
+    "Source": "FoH 80"
+  },
+  {
+    "searchKey": "overclocked",
+    "Name": "Overclocked",
+    "Description": "You've stored more Aether than your body can normally process at once, and must soon vent the excess.",
+    "Source": "FoH 81"
+  },
+  {
+    "searchKey": "detached",
+    "Name": "Detached",
+    "Persistent": "Persistent",
+    "Description": "You've run with occult circles for so long you've forgotten how to interact with humans.",
+    "Source": "HD 123"
+  },
+  {
+    "searchKey": "energized",
+    "Name": "Energized",
+    "Description": "A chemically induced rush.",
+    "Source": "HD 123"
+  },
+  {
+    "searchKey": "hunger",
+    "Name": "Hunger",
+    "Description": "You feel a violent, desperate need for Vitae.",
+    "Source": "HD 123"
+  },
+  {
+    "searchKey": "inbred",
+    "Name": "Inbred",
+    "Persistent": "Persistent",
+    "Description": "Ghoul family lineage emerges as a glaring affliction without Vitae.",
+    "Source": "HD 123"
+  },
+  {
+    "searchKey": "recovery",
+    "Name": "Recovery",
+    "Persistent": "Persistent",
+    "Description": "The pain and weakness of breaking a heavy chemical dependency.",
+    "Source": "HD 123"
+  },
+  {
+    "searchKey": "blood siblings",
+    "Name": "Blood Siblings",
+    "Description": "Your fate has been bound by obligation to aid another, regardless of your will.",
+    "Source": "HD 43"
+  },
+  {
+    "searchKey": "feral",
+    "Name": "Feral",
+    "Persistent": "Persistent",
+    "Description": "Gangrel blood affliction, manifest as a Vice of violent abuse.",
+    "Source": "HD 43"
+  },
+  {
+    "searchKey": "malcontent",
+    "Name": "Malcontent",
+    "Persistent": "Persistent",
+    "Description": "Daeva blood affliction, manifest as a Vice of lashing out.",
+    "Source": "HD 43"
+  },
+  {
+    "searchKey": "voyeuristic",
+    "Name": "Voyeuristic",
+    "Persistent": "Persistent",
+    "Description": "Mekhet blood affliction, manifest as a Vice of lurid fascination.",
+    "Source": "HD 43"
+  },
+  {
+    "searchKey": "alienated",
+    "Name": "Alienated",
+    "Persistent": "Persistent",
+    "Description": "Nosferatu blood affliction, manifest as a Vice of self-persecuting isolation.",
+    "Source": "HD 44"
+  },
+  {
+    "searchKey": "domineering",
+    "Name": "Domineering",
+    "Persistent": "Persistent",
+    "Description": "Ventrue blood affliction, manifest as a Vice of control and superiority.",
+    "Source": "HD 44"
+  },
+  {
+    "searchKey": "arm disability",
+    "Name": "Arm Disability",
+    "Persistent": "Persistent",
+    "Description": "At least one arm is either chronically or permanently nonfunctional.",
+    "Source": "HL 57"
+  },
+  {
+    "searchKey": "chronic agony",
+    "Name": "Chronic Agony",
+    "Persistent": "Persistent",
+    "Description": "You're vulnerable to incapacitating pain spells.",
+    "Source": "HL 57"
+  },
+  {
+    "searchKey": "chronic sickness",
+    "Name": "Chronic Sickness",
+    "Persistent": "Persistent",
+    "Description": "Sickness or poison lingers in you, aggravated by stress.",
+    "Source": "HL 57"
+  },
+  {
+    "searchKey": "deaf",
+    "Name": "Deaf",
+    "Persistent": "Persistent",
+    "Description": "Your hearing is severely impaired.",
+    "Source": "HL 58"
+  },
+  {
+    "searchKey": "leg disability",
+    "Name": "Leg Disability",
+    "Persistent": "Persistent",
+    "Description": "At least one leg is either chronically or permanently nonfunctional.",
+    "Source": "HL 58"
+  },
+  {
+    "searchKey": "doubtful",
+    "Name": "Doubtful",
+    "Persistent": "Persistent",
+    "Description": "You've lost confidence in all but your most secure actions.",
+    "Source": "HMR 147"
+  },
+  {
+    "searchKey": "vocalization",
+    "Name": "Vocalization",
+    "Description": "You've been cursed with harrowing sounds and voices.",
+    "Source": "HMR 147"
+  },
+  {
+    "searchKey": "emboldened",
+    "Name": "Emboldened",
+    "Description": "An uninhibited atmosphere makes you impulsive and prone to temptation.",
+    "Source": "HMR 150"
+  },
+  {
+    "searchKey": "ensorcelled",
+    "Name": "Ensorcelled",
+    "Persistent": "Optionally Persistent",
+    "Description": "You've fallen in thrall to a supernatural being.",
+    "Source": "HMR 153"
+  },
+  {
+    "searchKey": "activated",
+    "Name": "Activated",
+    "Persistent": "Persistent",
+    "Description": "The God-Machine has broken your Cipher. You have four Key Embeds and three Interlocks, but once per session, the God-Machine may act through you.",
+    "Source": "HtH 35"
+  },
+  {
+    "searchKey": "catalogued",
+    "Name": "Catalogued",
+    "Description": "The God-Machine is probing your Cipher. You have two Key Embeds and an Interlock, but the God-Machine is watching your status.",
+    "Source": "HtH 35"
+  },
+  {
+    "searchKey": "examined",
+    "Name": "Examined",
+    "Description": "The God-Machine has accessed your Cipher. You have three Key Embeds and two Interlocks, but you're scrutinized enough to pose demons a risk of compromise through you.",
+    "Source": "HtH 35"
+  },
+  {
+    "searchKey": "noted",
+    "Name": "Noted",
+    "Description": "The God-Machine is looking for your Cipher. You have one Key Embed.",
+    "Source": "HtH 35"
+  },
+  {
+    "searchKey": "abyssal nimbus",
+    "Name": "Abyssal Nimbus",
+    "Description": "A Paradox has leaked across your Nimbus and invites Abyssal manifestations.",
+    "Source": "MTA 2e 116"
+  },
+  {
+    "searchKey": "abyssal backlash",
+    "Name": "Abyssal Backlash",
+    "Description": "A Paradox casts a shadow over you, threatening to break through on the next spell that gives it an opening.",
+    "Source": "MTA 2e 117"
+  },
+  {
+    "searchKey": "abyssal imago",
+    "Name": "Abyssal Imago",
+    "Description": "A Paradox intrudes upon the spells you envision, compelling dangerous Reach.",
+    "Source": "MTA 2e 117"
+  },
+  {
+    "searchKey": "charmed",
+    "Name": "Charmed",
+    "Description": "You benefit from a blessing of luck and turns of fortune.",
+    "Source": "MTA 2e 315"
+  },
+  {
+    "searchKey": "defeated",
+    "Name": "Defeated",
+    "Description": "A rival has won magical advantage over you in the Duel Arcane.",
+    "Source": "MTA 2e 315"
+  },
+  {
+    "searchKey": "humbled",
+    "Name": "Humbled",
+    "Description": "Someone stands to you as a valuable reminder of the power of humanity.",
+    "Source": "MTA 2e 316"
+  },
+  {
+    "searchKey": "megalomaniacal",
+    "Name": "Megalomaniacal",
+    "Description": "You are blinded by hubris.",
+    "Source": "MTA 2e 317"
+  },
+  {
+    "searchKey": "mystery commands",
+    "Name": "Mystery Commands",
+    "Persistent": "Persistent",
+    "Description": "You receive the arcane will of the Exarchs.",
+    "Source": "MTA 2e 317"
+  },
+  {
+    "searchKey": "rampant",
+    "Name": "Rampant",
+    "Description": "Your spellcasting is ruled by a cavalier, reckless attitude.",
+    "Source": "MTA 2e 317"
+  },
+  {
+    "searchKey": "soul shocked",
+    "Name": "Soul Shocked",
+    "Description": "Your sense of self is healing after experiencing death outside the body.",
+    "Source": "MTA 2e 318"
+  },
+  {
+    "searchKey": "strained",
+    "Name": "Strained",
+    "Description": "You've held back the shock of witnessing supernal sorcery, but the pressure remains.",
+    "Source": "MTA 2e 318"
+  },
+  {
+    "searchKey": "triumphant",
+    "Name": "Triumphant",
+    "Description": "You carry your victory in the Dual Arcane with you in Awakened society.",
+    "Source": "MTA 2e 319"
+  },
+  {
+    "searchKey": "destructive",
+    "Name": "Destructive",
+    "Persistent": "Persistent",
+    "Description": "The Refinement of Flux. Spend Pyros to ignore Durability or Armor equal to your Azoth.",
+    "Source": "PTC 2e 251"
+  },
+  {
+    "searchKey": "agoraphobic",
+    "Name": "Agoraphobic",
+    "Description": "You avoid open spaces and crowds.",
+    "Source": "PTC 2e 306"
+  },
+  {
+    "searchKey": "alienated",
+    "Name": "Alienated",
+    "Description": "You're feeling distanced from your fellow Prometheans.",
+    "Source": "PTC 2e 306"
+  },
+  {
+    "searchKey": "atavistic",
+    "Name": "Atavistic",
+    "Description": "Your composure is overcome by sensory metamorphosis.",
+    "Source": "PTC 2e 306"
+  },
+  {
+    "searchKey": "branded throng",
+    "Name": "Branded Throng",
+    "Persistent": "Persistent",
+    "Description": "Your bond with your throng allows Pyros to flow, and its balance dampens the destructive aspect of your Azoth.",
+    "Source": "PTC 2e 306"
+  },
+  {
+    "searchKey": "burnout",
+    "Name": "Burnout",
+    "Description": "The Divine Fire within is overstoked and causes you pain.",
+    "Source": "PTC 2e 307"
+  },
+  {
+    "searchKey": "callous",
+    "Name": "Callous",
+    "Description": "You're tempted to view humans as tools.",
+    "Source": "PTC 2e 307"
+  },
+  {
+    "searchKey": "degaussed",
+    "Name": "Degaussed",
+    "Description": "Your volatile Pyros disrupts local electromagnetics.",
+    "Source": "PTC 2e 307"
+  },
+  {
+    "searchKey": "disconnected",
+    "Name": "Disconnected",
+    "Description": "Frustration in your Pilgrimage causes you to shrink from human interaction.",
+    "Source": "PTC 2e 308"
+  },
+  {
+    "searchKey": "disquieted",
+    "Name": "Disquieted",
+    "Description": "A Promethean's presence increasingly distracts and overwhelms you.",
+    "Source": "PTC 2e 308"
+  },
+  {
+    "searchKey": "ephemeral anchor",
+    "Name": "Ephemeral Anchor",
+    "Description": "Your internal alchemy invites ephemeral activity around you.",
+    "Source": "PTC 2e 309"
+  },
+  {
+    "searchKey": "fatigued",
+    "Name": "Fatigued",
+    "Description": "You've pushed yourself too far, and your fatigue hangs over you constantly.",
+    "Source": "PTC 2e 309"
+  },
+  {
+    "searchKey": "flawed vessel",
+    "Name": "Flawed Vessel",
+    "Description": "Your internal alchemy has calcified, temporarily freezing up some of your Pyretic ability.",
+    "Source": "PTC 2e 309"
+  },
+  {
+    "searchKey": "fragile",
+    "Name": "Fragile",
+    "Description": "Your internal alchemy has temporarily brought physical imperfections to the fore.",
+    "Source": "PTC 2e 309"
+  },
+  {
+    "searchKey": "greedy brand",
+    "Name": "Greedy Brand",
+    "Description": "You act as a Pyretic magnet, helplessly leeching out the Pyros from others.",
+    "Source": "PTC 2e 310"
+  },
+  {
+    "searchKey": "hyperextended",
+    "Name": "Hyperextended",
+    "Description": "Your body's abilities are strained to the breaking point, risking injury.",
+    "Source": "PTC 2e 310"
+  },
+  {
+    "searchKey": "irritable",
+    "Name": "Irritable",
+    "Description": "The Divine Fire roils inside you, leaving you restless and uneasy.",
+    "Source": "PTC 2e 310"
+  },
+  {
+    "searchKey": "kinesthesia",
+    "Name": "Kinesthesia",
+    "Description": "Your focus on your reflexes interferes with concentration.",
+    "Source": "PTC 2e 310"
+  },
+  {
+    "searchKey": "murderous",
+    "Name": "Murderous",
+    "Description": "A Pandoran's presence taints your instincts with predatory violence.",
+    "Source": "PTC 2e 311"
+  },
+  {
+    "searchKey": "reckless",
+    "Name": "Reckless",
+    "Description": "You're overtaken by uncautious caprice.",
+    "Source": "PTC 2e 311"
+  },
+  {
+    "searchKey": "regressive",
+    "Name": "Regressive",
+    "Description": "You've lost your grip on human motives and behavior.",
+    "Source": "PTC 2e 311"
+  },
+  {
+    "searchKey": "stricken",
+    "Name": "Stricken",
+    "Description": "A Pandoran's presence infects you with horror and fright.",
+    "Source": "PTC 2e 312"
+  },
+  {
+    "searchKey": "synesthesia",
+    "Name": "Synesthesia",
+    "Description": "Your senses are overactive and disrupt one another.",
+    "Source": "PTC 2e 312"
+  },
+  {
+    "searchKey": "terrified",
+    "Name": "Terrified",
+    "Description": "A Pandoran's presence whips you into panicked retreat.",
+    "Source": "PTC 2e 312"
+  },
+  {
+    "searchKey": "tormented",
+    "Name": "Tormented",
+    "Description": "Pain and suffering have severely imbalanced your alchemical humours.",
+    "Source": "PTC 2e 312"
+  },
+  {
+    "searchKey": "watched",
+    "Name": "Watched",
+    "Persistent": "Persistent",
+    "Description": "Someone is stalking you, suspicious of an unnatural secret you hide.",
+    "Source": "PTC 2e 312"
+  },
+  {
+    "searchKey": "masked",
+    "Name": "Masked",
+    "Persistent": "Persistent",
+    "Description": "The Refinement of Mortality. Spend Pyros to delay the onset of Disquiet.",
+    "Source": "PTC 2e 44"
+  },
+  {
+    "searchKey": "patient",
+    "Name": "Patient",
+    "Persistent": "Persistent",
+    "Description": "The Refinement of Self. Spend Pyros to raise your Azoth in Doors.",
+    "Source": "PTC 2e 47"
+  },
+  {
+    "searchKey": "tenacious",
+    "Name": "Tenacious",
+    "Persistent": "Persistent",
+    "Description": "The Refinement of Corpus. Spend Pyros to increase the number of rolls you can commit to an extended action.",
+    "Source": "PTC 2e 50"
+  },
+  {
+    "searchKey": "introspective",
+    "Name": "Introspective",
+    "Persistent": "Persistent",
+    "Description": "The Refinement of Source. Suffer bashing damage to squeeze out a point of Pyros as an instant action.",
+    "Source": "PTC 2e 53"
+  },
+  {
+    "searchKey": "enraged",
+    "Name": "Enraged",
+    "Persistent": "Persistent",
+    "Description": "The Refinement of Torment. Recover Pyros from your Torment Anchor.",
+    "Source": "PTC 2e 56"
+  },
+  {
+    "searchKey": "tuned in",
+    "Name": "Tuned In",
+    "Persistent": "Persistent",
+    "Description": "The Refinement of Aid. Spend Pyros to sense the way to your throngmates.",
+    "Source": "PTC 2e 59"
+  },
+  {
+    "searchKey": "sensitive",
+    "Name": "Sensitive",
+    "Persistent": "Persistent",
+    "Description": "The Refinement of Mystery. Spend Pyros to identify the supernatural.",
+    "Source": "PTC 2e 62"
+  },
+  {
+    "searchKey": "analyst",
+    "Name": "Analyst",
+    "Persistent": "Persistent",
+    "Description": "The Refinement of Impurity. Exploiting a Vice when Social Maneuvering is twice as effective.",
+    "Source": "PTC 2e 65"
+  },
+  {
+    "searchKey": "resourceful",
+    "Name": "Resourceful",
+    "Persistent": "Persistent",
+    "Description": "The Refinement of Pyros. Spend Pyros to increase a tool's equipment bonus temporarily.",
+    "Source": "PTC 2e 68"
+  },
+  {
+    "searchKey": "intense",
+    "Name": "Intense",
+    "Persistent": "Persistent",
+    "Description": "The Refinement of Ephemerality. Spend Pyros to open a Door at the cost of Disquiet.",
+    "Source": "PTC 2e 71"
+  },
+  {
+    "searchKey": "primeval truths",
+    "Name": "Primeval Truths",
+    "Description": "Occult revelations disquiet you until you face them down.",
+    "Source": "SotC 184"
+  },
+  {
+    "searchKey": "oathbreaker",
+    "Name": "Oathbreaker",
+    "Persistent": "Persistent",
+    "Description": "You suffer censure from the Invictus for breaking a blood oath.",
+    "Source": "SotC 189"
+  },
+  {
+    "searchKey": "name",
+    "Name": "Name",
+    "Persistent": "Optionally Persistent",
+    "Description": "Description",
+    "Source": "Source"
+  },
+  {
+    "searchKey": "bestial",
+    "Name": "Bestial",
+    "Description": "Supernatural urges provoke animalistic fight-or-flight instincts.",
+    "Source": "VTR 2e 301"
+  },
+  {
+    "searchKey": "charmed",
+    "Name": "Charmed",
+    "Persistent": "Persistent",
+    "Description": "You're temporarily bewitched by vampiric Majesty.",
+    "Source": "VTR 2e 301"
+  },
+  {
+    "searchKey": "competitive",
+    "Name": "Competitive",
+    "Description": "A supernaturally imposed need for hierarchy goads you into contests and displays of dominance and submission.",
+    "Source": "VTR 2e 302"
+  },
+  {
+    "searchKey": "confused",
+    "Name": "Confused",
+    "Description": "You can't think straight.",
+    "Source": "VTR 2e 302"
+  },
+  {
+    "searchKey": "delusional",
+    "Name": "Delusional",
+    "Persistent": "Persistent",
+    "Description": "Paranoid delusions dominate your behavior.",
+    "Source": "VTR 2e 302"
+  },
+  {
+    "searchKey": "dependent",
+    "Name": "Dependent",
+    "Persistent": "Persistent",
+    "Description": "You're obsessed with a vessel you've fed from, as if suffering a second-stage Vinculum.",
+    "Source": "VTR 2e 302"
+  },
+  {
+    "searchKey": "distracted",
+    "Name": "Distracted",
+    "Description": "You're buffeted from all sides, splitting your attention terribly.",
+    "Source": "VTR 2e 302"
+  },
+  {
+    "searchKey": "dominated",
+    "Name": "Dominated",
+    "Description": "A vampire has temporarily stolen your will with a given command.",
+    "Source": "VTR 2e 302"
+  },
+  {
+    "searchKey": "drained",
+    "Name": "Drained",
+    "Description": "You're weak and woozy from blood loss.",
+    "Source": "VTR 2e 303"
+  },
+  {
+    "searchKey": "ecstatic",
+    "Name": "Ecstatic",
+    "Description": "Blood sorcery has pleased the Beast's appetites.",
+    "Source": "VTR 2e 303"
+  },
+  {
+    "searchKey": "enslaved",
+    "Name": "Enslaved",
+    "Persistent": "Persistent",
+    "Description": "A vampire has your will helplessly in her thrall.",
+    "Source": "VTR 2e 303"
+  },
+  {
+    "searchKey": "enthralled",
+    "Name": "Enthralled",
+    "Persistent": "Persistent",
+    "Description": "A vampire has bewitched you with a fanatical devotion to him.",
+    "Source": "VTR 2e 303"
+  },
+  {
+    "searchKey": "false memories",
+    "Name": "False Memories",
+    "Persistent": "Persistent",
+    "Description": "Supernatural forces have overwritten your memories of an event.",
+    "Source": "VTR 2e 303"
+  },
+  {
+    "searchKey": "frightened",
+    "Name": "Frightened",
+    "Description": "You're terrified and moved to panic and flee.",
+    "Source": "VTR 2e 304"
+  },
+  {
+    "searchKey": "humbled",
+    "Name": "Humbled",
+    "Description": "Your will as a monster shrinks from divine judgment.",
+    "Source": "VTR 2e 304"
+  },
+  {
+    "searchKey": "intoxicated",
+    "Name": "Intoxicated",
+    "Description": "Your discretion is dulled by altered consciousness.",
+    "Source": "VTR 2e 304"
+  },
+  {
+    "searchKey": "jaded",
+    "Name": "Jaded",
+    "Description": "Your detachment from the concerns of Humanity baits out the Beast.",
+    "Source": "VTR 2e 304"
+  },
+  {
+    "searchKey": "languid",
+    "Name": "Languid",
+    "Description": "The loss of worldly Touchstones has you feeling the weight of ages and the call of torpor.",
+    "Source": "VTR 2e 304"
+  },
+  {
+    "searchKey": "lethargic",
+    "Name": "Lethargic",
+    "Description": "Fatigue tires you so heavily you cannot muster Willpower.",
+    "Source": "VTR 2e 305"
+  },
+  {
+    "searchKey": "mesmerized",
+    "Name": "Mesmerized",
+    "Description": "You're temporarily vulnerable to a vampire's commands.",
+    "Source": "VTR 2e 305"
+  },
+  {
+    "searchKey": "raptured",
+    "Name": "Raptured",
+    "Description": "Religious fervor makes riding the wave easier.",
+    "Source": "VTR 2e 305"
+  },
+  {
+    "searchKey": "sated",
+    "Name": "Sated",
+    "Description": "The Beast is appeased enough to make frenzy less threatening.",
+    "Source": "VTR 2e 305"
+  },
+  {
+    "searchKey": "scarred",
+    "Name": "Scarred",
+    "Description": "You're rattled and volatile from a sudden assault.",
+    "Source": "VTR 2e 305"
+  },
+  {
+    "searchKey": "subservient",
+    "Name": "Subservient",
+    "Persistent": "Persistent",
+    "Description": "A vampire is temporarily pressing down on your will to resist.",
+    "Source": "VTR 2e 306"
+  },
+  {
+    "searchKey": "tainted",
+    "Name": "Tainted",
+    "Description": "A soul consumed through diablerie still struggles from within you.",
+    "Source": "VTR 2e 306"
+  },
+  {
+    "searchKey": "tasked",
+    "Name": "Tasked",
+    "Description": "Your duty-bound allies have issued you a serious task you must carry out.",
+    "Source": "VTR 2e 307"
+  },
+  {
+    "searchKey": "tempted",
+    "Name": "Tempted",
+    "Description": "Resisting a frenzy has tested your will to resist the next.",
+    "Source": "VTR 2e 307"
+  },
+  {
+    "searchKey": "wanton",
+    "Name": "Wanton",
+    "Description": "Supernatural stirring of naked desires and temptations.",
+    "Source": "VTR 2e 307"
+  },
+  {
+    "searchKey": "atavism",
+    "Name": "Atavism",
+    "Description": "The Lunacy stirs you into unreasoning violence.",
+    "Source": "WTF 2e 306"
+  },
+  {
+    "searchKey": "awestruck",
+    "Name": "Awestruck",
+    "Persistent": "Persistent",
+    "Description": "A werewolf has used the Lunacy to project glorious terror on you.",
+    "Source": "WTF 2e 306"
+  },
+  {
+    "searchKey": "ban",
+    "Name": "Ban",
+    "Description": "You are compelled to obey one of the taboos of the Shadow.",
+    "Source": "WTF 2e 306"
+  },
+  {
+    "searchKey": "berserk",
+    "Name": "Berserk",
+    "Description": "Supernatural influence drives you to unthinking violence.",
+    "Source": "WTF 2e 306"
+  },
+  {
+    "searchKey": "cowed",
+    "Name": "Cowed",
+    "Description": "Someone has weakened you through a display of dominance.",
+    "Source": "WTF 2e 307"
+  },
+  {
+    "searchKey": "cunning",
+    "Name": "Cunning",
+    "Description": "Your Cunning waxes in a display that invites response.",
+    "Source": "WTF 2e 307"
+  },
+  {
+    "searchKey": "delusion",
+    "Name": "Delusion",
+    "Description": "The Lunacy drives you into unthinking retreat.",
+    "Source": "WTF 2e 307"
+  },
+  {
+    "searchKey": "demoralized",
+    "Name": "Demoralized",
+    "Description": "Failure dampens your fighting initiative.",
+    "Source": "WTF 2e 307"
+  },
+  {
+    "searchKey": "easy prey",
+    "Name": "Easy Prey",
+    "Description": "You've left a strong trail for a hunter to follow and exploit.",
+    "Source": "WTF 2e 307"
+  },
+  {
+    "searchKey": "essence overload",
+    "Name": "Essence Overload",
+    "Description": "The imbalance of your bodily Essence has tied its loss to injury.",
+    "Source": "WTF 2e 307"
+  },
+  {
+    "searchKey": "exhausted",
+    "Name": "Exhausted",
+    "Description": "You're run ragged on the edge of unconsciousness.",
+    "Source": "WTF 2e 307"
+  },
+  {
+    "searchKey": "glorious",
+    "Name": "Glorious",
+    "Description": "Your Glory waxes in a display that invites response.",
+    "Source": "WTF 2e 308"
+  },
+  {
+    "searchKey": "honorable",
+    "Name": "Honorable",
+    "Description": "Your Honor waxes in a display that invites response.",
+    "Source": "WTF 2e 308"
+  },
+  {
+    "searchKey": "invisible predator",
+    "Name": "Invisible Predator",
+    "Description": "You've skulked on the hunt, leaving nary a trace of your approach.",
+    "Source": "WTF 2e 308"
+  },
+  {
+    "searchKey": "isolated",
+    "Name": "Isolated",
+    "Description": "A werewolf's aura has drawn you out, away from allies.",
+    "Source": "WTF 2e 308"
+  },
+  {
+    "searchKey": "lost tracker",
+    "Name": "Lost Tracker",
+    "Description": "Frustrations on a hunt leave your tracking skills sloppy and halfhearted.",
+    "Source": "WTF 2e 308"
+  },
+  {
+    "searchKey": "lured",
+    "Name": "Lured",
+    "Persistent": "Persistent",
+    "Description": "Hunting magic draws you to blindly wander into a likely trap.",
+    "Source": "WTF 2e 309"
+  },
+  {
+    "searchKey": "moon taint",
+    "Name": "Moon Taint",
+    "Description": "A werewolf's bite brings the change upon you against your will.",
+    "Source": "WTF 2e 309"
+  },
+  {
+    "searchKey": "mystified",
+    "Name": "Mystified",
+    "Description": "A werewolf's aura shies you away from the opposite side of the Gauntlet.",
+    "Source": "WTF 2e 309"
+  },
+  {
+    "searchKey": "paranoid",
+    "Name": "Paranoid",
+    "Description": "Supernatural fear diminishes your ability to trust and depend on others.",
+    "Source": "WTF 2e 309"
+  },
+  {
+    "searchKey": "pure",
+    "Name": "Pure",
+    "Description": "Your Purity waxes in a display that invites response.",
+    "Source": "WTF 2e 309"
+  },
+  {
+    "searchKey": "reception",
+    "Name": "Reception",
+    "Description": "The Lunacy leaves you unwittingly open to the spirit world.",
+    "Source": "WTF 2e 310"
+  },
+  {
+    "searchKey": "resigned",
+    "Name": "Resigned",
+    "Description": "A werewolf's aura goads you into facing death recklessly.",
+    "Source": "WTF 2e 310"
+  },
+  {
+    "searchKey": "shadow paranoia",
+    "Name": "Shadow Paranoia",
+    "Description": "Supernatural fear builds into a violent, irrational panic.",
+    "Source": "WTF 2e 310"
+  },
+  {
+    "searchKey": "shadowlashed",
+    "Name": "Shadowlashed",
+    "Description": "Errors on a Rite have invited the disdain of the spirit world.",
+    "Source": "WTF 2e 310"
+  },
+  {
+    "searchKey": "siskur-dah",
+    "Name": "Siskur-Dah",
+    "Persistent": "Persistent",
+    "Description": "You are empowered by the Sacred Hunt to bring a chosen prey low.",
+    "Source": "WTF 2e 310"
+  },
+  {
+    "searchKey": "stumbled",
+    "Name": "Stumbled",
+    "Description": "A complication has arisen to interrupt an ongoing project.",
+    "Source": "WTF 2e 311"
+  },
+  {
+    "searchKey": "swaggering",
+    "Name": "Swaggering",
+    "Description": "A werewolf's aura lulls you into overlooking the need for preparation or aid.",
+    "Source": "WTF 2e 311"
+  },
+  {
+    "searchKey": "symbolic focus",
+    "Name": "Symbolic Focus",
+    "Description": "The power of a Rite still flows through you, enhancing spirit displays.",
+    "Source": "WTF 2e 311"
+  },
+  {
+    "searchKey": "unaware",
+    "Name": "Unaware",
+    "Description": "A werewolf's aura reduces your attention to the world around you.",
+    "Source": "WTF 2e 311"
+  },
+  {
+    "searchKey": "untraceable",
+    "Name": "Untraceable",
+    "Description": "You've thoroughly covered any trail a hunter might use to find you.",
+    "Source": "WTF 2e 311"
+  },
+  {
+    "searchKey": "wise",
+    "Name": "Wise",
+    "Description": "Your Wisdom waxes in a display that invites response.",
+    "Source": "WTF 2e 311"
+  }
+]

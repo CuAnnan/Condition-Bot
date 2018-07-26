@@ -1,0 +1,16 @@
+{
+  "name": "condition-bot",
+  "version": "1.0.0",
+  "description": "A condition bot for Southern Cross Forsaken",
+  "main": "app.js",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "mongodb": "^3.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wing",
+  "license": "ISC"
+}
