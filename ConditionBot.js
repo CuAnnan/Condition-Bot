@@ -200,6 +200,11 @@ class ConditionBot extends DiscordBot
 				let conditionSearch = commandParts.join(' ').toLowerCase(),
 					channelNameLC = category.name.toLowerCase(),
 					search = await this.collection.find({searchKey: conditionSearch}).toArray();
+				if(!search.length)
+				{
+					message.reply('Sorry, I could not find a condition with the name '+conditionSearch);
+				}
+				
 				for (let result of search)
 				{
 					message.reply(this.formatCondition(result));
