@@ -25,3 +25,8 @@ Adds a role to the list of roles that can perform elevated operations. This is a
 
 deElevateRoll [name of role]
 Remove a role from the list of roles that can perform elevated rolls. The server owner cannot be removed from this list, though any rolls they belong to can.
+
+
+Adding the bot to your server can be done by following [this link](https://discordapp.com/api/oauth2/authorize?client_id=471711316021870605&permissions=11264&scope=bot)
+
+By default, the bot has the permission to see categories and read messages (which are needed) as well as to manage messages. This last one is to allow the bot to delete commands that invoke it from the chat log. Which is how I generally configure it. You can uncheck the box in the above link to withold that permission without effecting the bot's effectiveness.
