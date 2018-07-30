@@ -34,7 +34,7 @@ Spooked		Otherworldly wonder moves you unwisely.	CofD 291	Hinder the group focus
 Steadfast		Your resolve to act is steeled and ready.	CofD 291	As above		Roll a single normal die instead of a chance die, or turn a failed roll into one with 1 success
 Swooned		You're charmed or bedazzled by a particular person.	CofD 291	Do something stupid for the object of your affection or fail a roll to resist a social action by them.		-2 to rolls to effect object of affection adveresely, they get +2 to all social rolls against you.
 The Sibyl's Tongue	●	Supernatural revelations can only be shared in High Speech, or by spending Willpower, through riddles or allegory.	DE 78	Acquire a supernatural template	Delay other's understanding	Supernatural senses can only be described in High Speech, which you do not understand
-Unintended Medium		A lingering ghost or spirit is able to subject you to harrowing visions.	DEC 273
+Unintended Medium		A lingering ghost or spirit is able to subject you to harrowing visions.	DEC 273	When the spirit or ghost has achieved its goals, or it is exorcised.		When you are stressed, roll Resolve + Composure. If you fail, you lose all sense of time.
 Sickly		Disease is making its way through your system.	DSG 105
 Faith	●	Your trust in the next world can be exploited by angelic forces.	DSG 81
 Plugged In		You've jacked an angel's Cover, and the God-Machine is watching you as if you were that angel.	DTD 118	Complete the task the angel was created for, or get a ccess to Infrastructure that can disconnect you from the GMC.		Any time you gain a Condition from compromise, you gain the Blown Condition
@@ -70,11 +70,11 @@ Malcontent	●	Daeva blood affliction, manifest as a Vice of lashing out.	HD 43	
 Voyeuristic	●	Mekhet blood affliction, manifest as a Vice of lurid fascination.	HD 43	Expose yourself by revealing important secrets or weaknesses, confess a crime, put your wellbeing in someone else's hands, let someone watch you in a compromising or damning situation	Put yourself or someone you care about at risk through your spying
 Alienated	●	Nosferatu blood affliction, manifest as a Vice of self-persecuting isolation.	HD 44	Make a genuine commitment to a group that you already quit, or a new one after causing or being in trouble associated with it. They must accept you.	Cut ties from a group, or be harmed by your outsider status
 Domineering	●	Ventrue blood affliction, manifest as a Vice of control and superiority.	HD 44	Permanently give up leadership. Let someone else push you around and humiliate you in front of others. Refuse to take charge in a bind when you would be best suited to take charge.	You or your allies get hurt or in trouble because someone obeyed your orders
-Arm Disability	●	At least one arm is either chronically or permanently nonfunctional.	HL 57
-Chronic Agony	●	You're vulnerable to incapacitating pain spells.	HL 57
-Chronic Sickness	●	Sickness or poison lingers in you, aggravated by stress.	HL 57
-Deaf	●	Your hearing is severely impaired.	HL 58
-Leg Disability	●	At least one leg is either chronically or permanently nonfunctional.	HL 58
+Arm Disability	●	At least one arm is either chronically or permanently nonfunctional.	HL 57	Appropriate medical care or supernatural treatment.	The Condition prevents you from from performing an action or you fail a roll penalized by it.	One arm: drop anything held. Off-hand penalties for all rolls. Two hands: Chance dies on rolls requiring manual dexterity, -3 to all other physical actions
+Chronic Agony	●	You're vulnerable to incapacitating pain spells.	HL 57	Appropriate medical care or supernatural treatment.	The Condition prevents you from from performing an action or you fail a roll penalized by it.	Imposes the effects of the Agony Tilt
+Chronic Sickness	●	Sickness or poison lingers in you, aggravated by stress.	HL 57	Appropriate medical care or supernatural treatment.	The Condition prevents you from from performing an action or you fail a roll penalized by it.	Take -1 to all actions. The penalty increases every two turns for a maximum of -5
+Deaf	●	Your hearing is severely impaired.	HL 58	Appropriate medical care or supernatural treatment.	The Condition prevents you from from performing an action or you fail a roll penalized by it.	Fail a perception roll.
+Leg Disability	●	At least one leg is either chronically or permanently nonfunctional.	HL 58	Appropriate medical care or supernatural treatment.	The Condition prevents you from from performing an action or you fail a roll penalized by it.	Fail a physical roll, suffer another disadvantage due to the disability
 Doubtful	●	You've lost confidence in all but your most secure actions.	HMR 147
 Vocalization		You've been cursed with harrowing sounds and voices.	HMR 147
 Emboldened		An uninhibited atmosphere makes you impulsive and prone to temptation.	HMR 150
@@ -98,43 +98,43 @@ Strained		You've held back the shock of witnessing supernal sorcery, but the pre
 Thrall	●	You are well and truly soul-broken.	MTA 2e 318	Regain a soul	you are victimized because of your condition	You may not use your Defense, spend willpower for any reason, spend Experience. You suffer the Broken Condition. Mages can no longer cast spells.
 Triumphant		You carry your victory in the Dual Arcane with you in Awakened society.	MTA 2e 319	The first time you fail a social roll with a member of Awakened society, take a beat and the condition ends	Any time you throw your sucess in someone's face	You gain exceptional successes on 3 instead of 5 on Social rolls with any Awakened who knows of the duel.
 Destructive	●	The Refinement of Flux. Spend Pyros to ignore Durability or Armor equal to your Azoth.	PTC 2e 251
-Agoraphobic		You avoid open spaces and crowds.	PTC 2e 306
-Alienated		You're feeling distanced from your fellow Prometheans.	PTC 2e 306
-Atavistic		Your composure is overcome by sensory metamorphosis.	PTC 2e 306
-Branded Throng	●	Your bond with your throng allows Pyros to flow, and its balance dampens the destructive aspect of your Azoth.	PTC 2e 306
-Burnout		The Divine Fire within is overstoked and causes you pain.	PTC 2e 307
-Callous		You're tempted to view humans as tools.	PTC 2e 307
-Degaussed		Your volatile Pyros disrupts local electromagnetics.	PTC 2e 307
-Disconnected		Frustration in your Pilgrimage causes you to shrink from human interaction.	PTC 2e 308
-Disquieted		A Promethean's presence increasingly distracts and overwhelms you.	PTC 2e 308
-Ephemeral Anchor		Your internal alchemy invites ephemeral activity around you.	PTC 2e 309
-Fatigued		You've pushed yourself too far, and your fatigue hangs over you constantly.	PTC 2e 309
-Flawed Vessel		Your internal alchemy has calcified, temporarily freezing up some of your Pyretic ability.	PTC 2e 309
-Fragile		Your internal alchemy has temporarily brought physical imperfections to the fore.	PTC 2e 309
-Greedy Brand		You act as a Pyretic magnet, helplessly leeching out the Pyros from others.	PTC 2e 310
-Hyperextended		Your body's abilities are strained to the breaking point, risking injury.	PTC 2e 310
-Irritable		The Divine Fire roils inside you, leaving you restless and uneasy.	PTC 2e 310
-Kinesthesia		Your focus on your reflexes interferes with concentration.	PTC 2e 310
-Murderous		A Pandoran's presence taints your instincts with predatory violence.	PTC 2e 311
-Reckless		You're overtaken by uncautious caprice.	PTC 2e 311
-Regressive		You've lost your grip on human motives and behavior.	PTC 2e 311
-Stricken		A Pandoran's presence infects you with horror and fright.	PTC 2e 312
-Synesthesia		Your senses are overactive and disrupt one another.	PTC 2e 312
-Terrified		A Pandoran's presence whips you into panicked retreat.	PTC 2e 312
-Tormented		Pain and suffering have severely imbalanced your alchemical humours.	PTC 2e 312
-Watched	●	Someone is stalking you, suspicious of an unnatural secret you hide.	PTC 2e 312
-Masked	●	The Refinement of Mortality. Spend Pyros to delay the onset of Disquiet.	PTC 2e 44
-Patient	●	The Refinement of Self. Spend Pyros to raise your Azoth in Doors.	PTC 2e 47
-Tenacious	●	The Refinement of Corpus. Spend Pyros to increase the number of rolls you can commit to an extended action.	PTC 2e 50
-Introspective	●	The Refinement of Source. Suffer bashing damage to squeeze out a point of Pyros as an instant action.	PTC 2e 53
-Enraged	●	The Refinement of Torment. Recover Pyros from your Torment Anchor.	PTC 2e 56
-Tuned In	●	The Refinement of Aid. Spend Pyros to sense the way to your throngmates.	PTC 2e 59
-Sensitive	●	The Refinement of Mystery. Spend Pyros to identify the supernatural.	PTC 2e 62
-Analyst	●	The Refinement of Impurity. Exploiting a Vice when Social Maneuvering is twice as effective.	PTC 2e 65
-Resourceful	●	The Refinement of Pyros. Spend Pyros to increase a tool's equipment bonus temporarily.	PTC 2e 68
-Intense	●	The Refinement of Ephemerality. Spend Pyros to open a Door at the cost of Disquiet.	PTC 2e 71
-Primeval Truths		Occult revelations disquiet you until you face them down.	SotC 184
-Oathbreaker	●	You suffer censure from the Invictus for breaking a blood oath.	SotC 189
+Agoraphobic		You avoid open spaces and crowds.	PTC 2e 306	Gain or lose a dot of Pilgrimage, achieve an exceptional success on a step backwards.		Any time there are more people present than the sum of your resolve and Composure, you are at -2 to Initiative, perception, and any action requiring careful focus. Crowds force Resolve + Composure roll, on a failure you flee. Any action not related to finding somewhere indoors and safe are at a -3 for the scene
+Alienated		You're feeling distanced from your fellow Prometheans.	PTC 2e 306	Opt to fail a social roll involving another Promethean		-2 to social rolls with others Social rolls with others of his kind. All beats provided by this condition are group beats.
+Atavistic		Your composure is overcome by sensory metamorphosis.	PTC 2e 306	Suceed in a roll using a Mental Attribute		All mental attributes take a -2 (minimum 1). This affects derived traits.
+Branded Throng	●	Your bond with your throng allows Pyros to flow, and its balance dampens the destructive aspect of your Azoth.	PTC 2e 306	Spend one Pyros to erase you rown brand or each other member spends 1 to expel you	You are endangered, harmed, severely inconvenienced, forced to reveal emotions that you would have kept secret. This can only be done once per chapter.	 +2 to Empathy rolls on Throng mates. You may share Pyros with throngmates through the brand. Resist Torment rolls suffer a -1 for all throngmates in your Lineage, but +1 for each that doesn.t Rolls to inflict Disquiet add one die for each member with the lineage, but -1 for each that doesn't. All Branded Throng of the ame lineage add to the highest effective Azoth for the purposes of Wasteland Festering, all members of different lineage subtract.
+Burnout		The Divine Fire within is overstoked and causes you pain.	PTC 2e 307	Choose to fail an action where the penalty is in play		-2 to all actions other than Vuclanus Transumation
+Callous		You're tempted to view humans as tools.	PTC 2e 307	Opt to fail a social roll involving a human		-2 to all Empathy rolls
+Degaussed		Your volatile Pyros disrupts local electromagnetics.	PTC 2e 307	The electric disruption causes you significant problem. Alternately you may energize the Azothig Detonation Distillation and unleash a pulse to reset your personal field.
+Disconnected		Frustration in your Pilgrimage causes you to shrink from human interaction.	PTC 2e 308	Complete a milestone. Spend an hour talking with a normal human.		-2 to all social pools dealing with humans
+Disquieted		A Promethean's presence increasingly distracts and overwhelms you.	PTC 2e 308	Stay away from the Promethean that caused it for a week		Per the book
+Ephemeral Anchor		Your internal alchemy invites ephemeral activity around you.	PTC 2e 309	You are caused a setback because of it		You act as Open
+Fatigued		You've pushed yourself too far, and your fatigue hangs over you constantly.	PTC 2e 309	Sleep for 8 hours +1 for every period you remained awake.		Cumulative -1 penalty to all dice penalties every 6 hours. Every 6 hours you must roll Resolve + Stamina to remain awake. Penalty applies. Strenuos labour increases the penalty to -2 or -3
+Flawed Vessel		Your internal alchemy has calcified, temporarily freezing up some of your Pyretic ability.	PTC 2e 309	You are reminded of your nature in a manner which induces Disquiet. You witness or cuase a Firestorm. Achieve an exceptional success on Transmutation or Bestowment.		Your Azoth is now considerered Magnitude, maximum 5, for how many Pyros you can retain and spend per turn.
+Fragile		Your internal alchemy has temporarily brought physical imperfections to the fore.	PTC 2e 309	Take two or points of damage due to this condition.		Any time you suffer damage, take an extra bashing.
+Greedy Brand		You act as a Pyretic magnet, helplessly leeching out the Pyros from others.	PTC 2e 310	Cause a Firestorm or form a wasteland due to your wasted Pyros.		You pull a poinht of Pyros from the throngmate with the highest Azoth every scene. It is wasted, but counts as having been spent for the purposes of Firestorm or Wasteland
+Hyperextended		Your body's abilities are strained to the breaking point, risking injury.	PTC 2e 310	Heal the inflicted damage		Any physical roll you fail causes you your (modified) Strength in bashing damage.
+Irritable		The Divine Fire roils inside you, leaving you restless and uneasy.	PTC 2e 310	Opt to fail a Composure roll or to have your Composure not subtracted from a resisted roll against you.		-2 to all rolls including Composure
+Kinesthesia		Your focus on your reflexes interferes with concentration.	PTC 2e 310	Opt to fail an Intelligence roll or your distraction causes you to commit a life endangering error.		-2 to all Intelligence rolls.
+Murderous		A Pandoran's presence taints your instincts with predatory violence.	PTC 2e 311	You are no longer in the Pandoran's presence or have reduce a human to their last health box.		Select a nearby creature, they are now your prey for the scene. You pay spend a willpower to roll Resolve + Composure, success allows you to flee.
+Reckless		You're overtaken by uncautious caprice.	PTC 2e 311	You, or one of your allies, suffer from amajor setback due to your recklessness		-2 to Perception rolls and other Composure rolls to notice something.
+Regressive		You've lost your grip on human motives and behavior.	PTC 2e 311	Gain a willpower from your Elpis or fail a social roll interacting with humans.		-2 to all social pools dealing with humans
+Stricken		A Pandoran's presence infects you with horror and fright.	PTC 2e 312	You are no longer in the pandoran's presensce. You now gain the Fugue Condition.		You may run, cower or hide freely. All other actions are at -2
+Synesthesia		Your senses are overactive and disrupt one another.	PTC 2e 312	Opt to fail a perception roll.		-2 to all Percption rolls
+Terrified		A Pandoran's presence whips you into panicked retreat.	PTC 2e 312	You are no longer in the pandoran's presence.		You must spend a willpower to remain in the scene. All actions are at -2 if you do.
+Tormented		Pain and suffering have severely imbalanced your alchemical humours.	PTC 2e 312	Witness your Elpis. Perform a task related to your Elpis. Burn enough Pyros to create a Wasteland, cause a Firestorm, change Refinements to any other than Tin.	Cause a dramatic setback for yoursel of your Throng. 	You suffer your TOrmennt. Willlpower can only be resolved using the TOrment
+Watched	●	Someone is stalking you, suspicious of an unnatural secret you hide.	PTC 2e 312	Confront the stalker and get them to back off. Do something overtly supernatural.	Being caught by the stalker. Give them conclusive proof of your inhumanity.	-2 to all Wits + Composure
+Masked	●	The Refinement of Mortality. Spend Pyros to delay the onset of Disquiet.	PTC 2e 44	The scene ends	Once per chapter, gain a beat by putting yoursellf in danger to protect or aid your human allies.
+Patient	●	The Refinement of Self. Spend Pyros to raise your Azoth in Doors.	PTC 2e 47		Once per chapter, take a beat when you react to a tense or dangerous situation with precise thought and action.
+Tenacious	●	The Refinement of Corpus. Spend Pyros to increase the number of rolls you can commit to an extended action.	PTC 2e 50		Once per chapter, take a beat when you stun or awe others with physical awesomeness
+Introspective	●	The Refinement of Source. Suffer bashing damage to squeeze out a point of Pyros as an instant action.	PTC 2e 53		Once per chapter, take a beat when you overthink things leading to inaction.
+Enraged	●	The Refinement of Torment. Recover Pyros from your Torment Anchor.	PTC 2e 56		Once per chapter, suffer a setback or put your throng on the back foot because of your anger or cruetly
+Tuned In	●	The Refinement of Aid. Spend Pyros to sense the way to your throngmates.	PTC 2e 59		Once per chapter, take a beaty for putting a throngmate first and doing so
+Sensitive	●	The Refinement of Mystery. Spend Pyros to identify the supernatural.	PTC 2e 62		Once per chapter, take a beat if you desciver a new facet of the supernatural or you expand your knowledge of a supernatural subject you are already familiar with.
+Analyst	●	The Refinement of Impurity. Exploiting a Vice when Social Maneuvering is twice as effective.	PTC 2e 65		Once per chapter, take a beat for encouraging or enabling another's Vice or Torment
+Resourceful	●	The Refinement of Pyros. Spend Pyros to increase a tool's equipment bonus temporarily.	PTC 2e 68		Once per chapter, take a beat when your thirst for knowledge harms those around you.
+Intense	●	The Refinement of Ephemerality. Spend Pyros to open a Door at the cost of Disquiet.	PTC 2e 71		Once per chapter, opt to fail a stealth roll or add one die to a Disquiet roll.
+Primeval Truths		Occult revelations disquiet you until you face them down.	SotC 184	Face the darkness. Risk Humanity Detachment.		You cannot regain Willower, you must spend an additional Vitae to rise each nigh.t
+Oathbreaker	●	You suffer censure from the Invictus for breaking a blood oath.	SotC 189	Risk Final Death for an Invictus in a recognisable manner	An Invictus takes vengeance	Your Invictus status is capped at 3. Your Resources, Allies, Contacts, Herd and a single Mentor are capped at 4. All social failures among the Invictus are dramatic failures.
 Bestial		Supernatural urges provoke animalistic fight-or-flight instincts.	VTR 2e 301	Cause damage in somone's last three healthboxes		Resisting frenzy, resisting physical impulse, and Defence suffer a -2. Actions to compel you to impulsive, aggressive or fleeing actions achieve exception on three successes, instead of five
 Charmed	●	You're temporarily bewitched by vampiric Majesty.	VTR 2e 301	The Vampire harms you or someone you love, or you make a significant sacrifice for him.	You divulge a secret or perform a favour for the vampire	Vampire adds his awe successes to Manipulation rolls against you. You suffer his Majesty as a penalty to Wits and Empathy or Subterfuge to detect lies or true motives.
 Competitive		A supernaturally imposed need for hierarchy goads you into contests and displays of dominance and submission.	VTR 2e 302	Win or lose a competition where someone reaches a breaking point.		Any competitive rolls you do not spend a willpower on suffer a -2. Any rolls to goad you into competition count as exceptional with three or more successes.
