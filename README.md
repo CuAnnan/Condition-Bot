@@ -7,7 +7,13 @@ Commands to the bot must be started with its command prefix (defaults to !) or b
 or  
 `@ConditionBot condition Pure`
 
-Commands:
+##Commands:
+
+### A note on command arguments
+Command arguments for all commands regarding categories and roles are case sensitive. This is a baked into discord's architecture. While category names in Discord's server architecture are *stored* in a case sensitive format, they are *displayed* in all caps. Which means that if you name a category IC Rooms, it will show up as IC ROOMS, but trying to add the category IC ROOMS to the authorised rooms will not work.  
+
+### Command list
+
 condition [name of condition with spaces]
 Fetches the details about the conditions and replies in channel, if permitted.
 
