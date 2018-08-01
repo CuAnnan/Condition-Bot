@@ -130,7 +130,6 @@ class DiscordBot
 		
 		if (!(message.content.startsWith(prefix) || isMention || isRenamedMention))
 		{
-			console.log('Not a command');
 			return;
 		}
 		
