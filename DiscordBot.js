@@ -9,14 +9,15 @@ class DiscordBot
 		this.commands = {};
 		this.commandPrefix = conf.commandPrefix;
 		this.commandPrefixOverrides = {};
-		
+		this.deleteMessageOverrides = {};
 	}
 	
 	async hoist(user)
 	{
 		this.user = user;
 		let settings = this.getJSONFromFile('./settings.json');
-		this.commandPrefixOverrides = settings.commandPrefixOverrides?settings.commandPrefixOverrides:'!';
+		this.commandPrefixOverrides = settings.commandPrefixOverrides?settings.commandPrefixOverrides:{};
+		this.deleteMessageOverrides = settings.deleteMessageOverrides?settings.deleteMessageOverrides:{};
 		return settings;
 	}
 	
@@ -53,6 +54,29 @@ class DiscordBot
 	attachCommands()
 	{
 		this.attachCommand('setCommandPrefix', this.setCommandPrefixForGuild);
+		this.attachCommand('setCommandDelete', this.setDeleteMessages);
+	}
+	
+	getDeleteMessageForGuild(guildId)
+	{
+		if(Object.keys(this.deleteMessageOverrides).indexOf(guildId) < 0)
+		{
+			return true;
+		}
+		return this.deleteMessageOverrides[guildId];
+	}
+	
+	setDeleteMessages(commandParts, message, comment)
+	{
+		this.elevateCommand(message);
+		if(!commandParts.length)
+		{
+			return;
+		}
+		let guildSpecificDeleteString = commandParts[0].trim().toLowerCase(),
+			guildSpecificDeleteIndex = ['false', 'f', 'n', 'no'].indexOf(guildSpecificDeleteString),
+			guildSpecificDelete = guildSpecificDeleteIndex < 0;
+		this.deleteMessageOverrides[message.guild.id] = guildSpecificDelete;
 	}
 	
 	getCommandPrefixForGuild(guildId)
@@ -92,7 +116,8 @@ class DiscordBot
 	getSettingsToSave()
 	{
 		let settingsToSave = {
-				'commandPrefixOverrides': this.commandPrefixOverrides
+				'commandPrefixOverrides': this.commandPrefixOverrides,
+				'deleteMessages':this.deleteMessageOverrides,
 			};
 		return settingsToSave;
 	}
@@ -100,6 +125,7 @@ class DiscordBot
 	saveSettings()
 	{
 		let settings = this.getSettingsToSave();
+		
 		fs.writeFileSync('./settings.json', JSON.stringify(settings),(err)=>{
 			if(err)
 			{
@@ -174,9 +200,12 @@ class DiscordBot
 				console.log(e);
 			}
 			
-			message.delete().catch(()=>{
-				console.log('Bot is not permitted to delete on this guild');
-			})
+			if(this.getDeleteMessageForGuild(message.guild.id))
+			{
+				message.delete().catch(() => {
+					console.log('Bot is not permitted to delete on this guild');
+				});
+			}
 		}
 	}
 	

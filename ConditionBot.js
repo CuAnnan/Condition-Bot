@@ -195,6 +195,7 @@ class ConditionBot extends DiscordBot
 		if (category)
 		{
 			let categoryId = category.id, guildId = message.guild.id;
+			
 			if(this.roomCategoriesToRespondTo[guildId] && this.roomCategoriesToRespondTo[guildId].indexOf(categoryId) >= 0)
 			{
 				let conditionSearch = commandParts.join(' ').toLowerCase(),
